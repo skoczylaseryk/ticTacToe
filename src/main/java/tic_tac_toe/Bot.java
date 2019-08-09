@@ -5,6 +5,7 @@ import java.util.Random;
 public class Bot {
 
     private Random r = new Random();
+    // name should be more descriptive name
 
 
     private Board board;
@@ -14,10 +15,12 @@ public class Bot {
     }
 
     public void move() throws FailArgumentException {
+
         int array[][] = board.getBoard();
 
+        // as above
         boolean flag = true;
-
+        // as above
         while (flag) {
 
             int x = r.nextInt(3);

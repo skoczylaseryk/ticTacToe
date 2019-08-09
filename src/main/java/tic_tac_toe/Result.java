@@ -15,7 +15,7 @@ public class Result {
         } else
             return "$";
     }
-
+        // incorrect method name
     public boolean hasPlayerWon() {
         int array[][] = board.getBoard();
 
@@ -36,6 +36,7 @@ public class Result {
 
     }
 
+    // as above
     public boolean hasBotWon() {
         int array[][] = board.getBoard();
         if (

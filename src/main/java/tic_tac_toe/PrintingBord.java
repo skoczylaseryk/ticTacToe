@@ -1,5 +1,6 @@
 package tic_tac_toe;
 
+// for classname verbs should not be used
 public class PrintingBord {
 
     private Board board;

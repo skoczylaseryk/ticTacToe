@@ -13,10 +13,13 @@ public class Human {
     public Board makeMove() {
         Scanner scanner = new Scanner(System.in);
 
+        // name should be more descriptive
         boolean flag = true;
         int x = 4;
         int y = 4;
 
+
+        // too long predicate
         while (x > 2 || x < 0 || y > 2 || y < 0) {
             x = scanner.nextInt();
             y = scanner.nextInt();

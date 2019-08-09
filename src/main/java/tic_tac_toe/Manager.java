@@ -19,6 +19,7 @@ public class Manager {
 
     }
 
+
     public void playAGame() {
         menu.showMenu();
         human.makeMove();
